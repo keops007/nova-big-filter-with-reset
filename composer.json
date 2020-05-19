@@ -1,0 +1,31 @@
+{
+    "name": "keops007/nova-big-filter-with-reset",
+    "description": "A nice looking filter menu thats always open.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "filter",
+        "card"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Keops007\\NovaBigFilterWithReset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Keops007\\NovaBigFilterWithReset\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
